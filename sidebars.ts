@@ -493,6 +493,33 @@ const sidebars: SidebarsConfig = {
         'products/services',
         {
           type: 'category',
+          label: 'Aiven for AlloyDB Omni®',
+          link: {
+            id: 'products/alloydb-omni',
+            type: 'doc',
+          },
+          items: [
+            'products/alloydb-omni/get-started',
+            {
+              type: 'category',
+              label: 'Connect to service',
+              link: {
+                type: 'doc',
+                id: 'products/alloydb-omni/connect/connect-services',
+              },
+              items: [
+                'products/alloydb-omni/connect/connect-go',
+                'products/alloydb-omni/connect/connect-node',
+                'products/alloydb-omni/connect/connect-php',
+                'products/alloydb-omni/connect/connect-python',
+                'products/alloydb-omni/connect/connect-java',
+              ],
+            },
+            'products/alloydb-omni/advanced-params',
+          ],
+        },
+        {
+          type: 'category',
           label: 'Aiven for Apache Cassandra®',
           link: {
             type: 'doc',

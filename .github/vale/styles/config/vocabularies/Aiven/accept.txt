@@ -4,6 +4,8 @@ ACLs
 Addons
 Aiven
 Aiven's
+AlloyDB
+AlloyDB Omni
 Altinity
 Amazon
 Apache
@@ -190,6 +192,7 @@ npm
 NVMe
 OAuth
 Okta
+Omni
 onboarding
 OpenSearch
 OpenSearch Security

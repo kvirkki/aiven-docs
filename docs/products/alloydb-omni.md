@@ -5,82 +5,91 @@ title: Aiven for AlloyDB Omni®
 Harness the speed and scalability of Google AlloyDB Omni on any cloud, managed by Aiven.
 
 Aiven for AlloyDB Omni is a managed version of Google AlloyDB Omni. It combines the power
-of Google's advanced database technology and AI capabilities with the ease of use and
-multi-cloud flexibility of the Aiven platform for Google Cloud, Amazon Web Services, and
-Microsoft Azure.
+of Google's advanced database technology, new columnar engine, and AI capabilities with
+the ease of use and multi-cloud flexibility of the Aiven platform for Google Cloud, Amazon
+Web Services, and Microsoft Azure.
 
 ## Features and benefits
 
-Aiven for AlloyDB Omni brings you:
+Aiven for AlloyDB Omni brings you raw power of Google's AlloyDB Omni, purpose-built for
+mission-critical PostgreSQL workloads. It offers simplicity, flexibility, and accelerated
+time-to-market benefits of a managed service from Aiven.
 
-- The raw power of Google's AlloyDB Omni, purpose-built for mission-critical PostgreSQL workloads
-- The simplicity, flexibility, and accelerated time-to-market benefits of a managed service
-  from Aiven
+- Full PostgreSQL compatibility
 
-### Full PostgreSQL compatibility
+  Aiven for AlloyDB Omni is designed to be fully compatible with PostgreSQL, ensuring that existing
+  applications and tools work seamlessly without requiring any code changes. It utilizes
+  standard PostgreSQL drivers and supports a wide range of PostgreSQL extensions and flags.
 
-Aiven for AlloyDB Omni is designed to be fully compatible with PostgreSQL, ensuring that existing
-applications and tools work seamlessly without requiring any code changes. It utilizes
-standard PostgreSQL drivers, and supports a wide range of PostgreSQL extensions and flags.
+- High performance
 
-### High performance
+  Compared to standard PostgreSQL, Aiven for AlloyDB Omni's in-memory columnar storage and
+  intelligent query processing delivers up to 2x faster performance for transactional
+  workloads, 100x faster analytical queries, and 10x faster vector queries, according to Google.
 
-Aiven for AlloyDB Omni's in-memory columnar storage and intelligent query processing delivers up to
-2x faster performance for transactional workloads, 100x faster analytical queries, and 10x
-faster vector queries than standard PostgreSQL, according to Google.
+- Managed service simplicity
 
-Up to 2x faster than standard PostgreSQL for transactional workloads and up to 100x faster
-analytical queries than standard PostgreSQL, according to Google.
+  Aiven handles the provisioning of Aiven for AlloyDB Omni on any major cloud and takes care
+  of routine tasks like backups, scaling, upgrades, and high availability. This gives you the
+  freedom to focus on innovation and building applications, not database management.
 
-### Managed service simplicity
+- Built-in generative AI
 
-Aiven handles all the operational complexities, including provisioning, scaling, backups,
-upgrades, and high availability. This frees your team to focus on innovation and building
-apps, not database administration.
+  Build and deploy powerful generative AI applications directly on your operational data.
+  Leverage vector embeddings, perform lightning-fast vector similarity searches, and access
+  cutting-edge AI models within your database, all with the familiarity of SQL.
 
-Aiven handles the provisioning of Aiven for AlloyDB Omni on any major cloud, and takes care of
-routine tasks like backups, scaling, upgrades, and high availability. This gives you the
-freedom to focus on your applications, not database management.
+- Multi-cloud and hybrid flexibility
 
-### Built-in generative AI
+  Deploy and manage Aiven for AlloyDB Omni seamlessly across AWS, Google Cloud, Azure, or
+  on-premises. Achieve maximum flexibility and agility anywhere you use PostgreSQL.
 
-Build and deploy powerful generative AI applications directly on your operational data.
-Leverage vector embeddings, perform lightning-fast vector similarity searches, and access
-cutting-edge AI models within your database, all with the familiarity of SQL.
+- Enterprise-grade security
 
-### Multi-cloud & hybrid flexibility
+  Securely access your operational data, open-source genAI data, and your AI models stored
+  locally or remotely. Leverage end-to-end encryption, private networking, and role-based
+  access control for peace of mind.
 
-Deploy and manage Aiven for AlloyDB Omni seamlessly across AWS, GCP, Azure, or on-premises. Achieve
-maximum flexibility and agility anywhere you use PostgreSQL.
+- Seamless scalability
 
-### Enterprise-grade security
+  Scale your database effortlessly with Aiven's auto-scaling features, ensuring optimal
+  performance even during peak loads.
 
-Securely access your operational data, open-source genAI data, and your AI models stored
-locally or remotely. Leverage end-to-end encryption, private networking, and role-based
-access control for peace of mind.
+- Cost-efficiency
 
-### Seamless scalability
-
-Scale your database effortlessly with Aiven's auto-scaling features, ensuring optimal
-performance even during peak loads.
+  Benefit from predictable and transparent, pay-as-you-go pricing with no hidden fees or
+  charges.
 
 ## Key use cases
 
-Aiven for AlloyDB Omni is ideal for a variety of data-intensive applications and use cases, including:
+Aiven for AlloyDB Omni is ideal for a variety of data-intensive applications and use cases,
+including:
 
-- Data-Intensive Applications with Complex Workloads: Reduce response times for
+- Data-intensive applications with complex workloads
+
+  Reduce response times for
   applications that require a combination of high transactional throughput and complex
   analytical queries, such as those in healthcare or gaming.
-- High-Performance Transactional Workloads: Increase the throughput for applications that
+- High-performance transactional workloads
+
+  Increase the throughput for applications that
   require high transaction rates, low latency, and consistent performance, such as
   e-commerce platforms or financial systems.
-- Multi-Cloud Deployments: Adopt the AlloyDB Omni advanced features and performance on the
-  cloud or clouds of your choice with centralized management through the Aiven platform.
-- High-Traffic Web Applications: Handle large volumes of concurrent users and transactions
+- Multi-cloud deployments
+
+  Adopt Aiven for AlloyDB Omni advanced features and performance
+  on the cloud or clouds of your choice with centralized management through the Aiven platform.
+- High-traffic web applications
+
+  Handle large volumes of concurrent users and transactions
   with ease, ensuring a smooth user experience.
-- Real-Time Analytics and Dashboards: Process and analyze massive datasets in real time to
+- Real-time analytics and dashboards
+
+  Process and analyze massive datasets in real time to
   generate actionable insights, track key performance indicators, and drive faster decision-making.
-- Machine Learning and AI Applications: Build and deploy generative AI applications
+- Machine learning and AI applications
+
+  Build and deploy generative AI applications
   directly on your operational data, using the familiarity of SQL.
 
 ## How it works
@@ -123,6 +132,6 @@ downtime and disruptions with 99.99% uptime SLA.
 ## Learn more
 
 - [Get started with Aiven for AlloyDB Omni](/docs/products/alloydb-omni/get-started)
+- [Access and use generative AI models with Aiven for AlloyDB Omni](/docs/products/alloydb-omni/access-ai-models)
+- [Use the Aiven for AlloyDB Omni columnar engine](/docs/products/alloydb-omni/use-columnar-engine)
 - [AlloyDB Omni documentation by Google](https://cloud.google.com/alloydb/docs/omni)
-- [AlloyDB for PostgreSQL documentation by Google](https://cloud.google.com/alloydb/docs)
-- [Aiven for PostgreSQL documentation](/docs/products/postgresql)

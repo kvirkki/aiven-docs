@@ -35,7 +35,7 @@ Start using Aiven for AlloyDB Omni® by creating and configuring a service, conn
 
    ```bash
     avn service create demo-alloydb-omni     \
-    --service-type alloydb-omni              \
+    --service-type alloydbomni               \
     --cloud CLOUD_AND_REGION                 \
     --plan PLAN                              \
     --project PROJECT_NAME
@@ -45,7 +45,7 @@ Start using Aiven for AlloyDB Omni® by creating and configuring a service, conn
 
     - `avn service create demo-alloydb-omni`: Command to create new Aiven service
       named `demo-alloydb-omni`.
-    - `--service-type alloydb-omni`: Specifies the service type as Aiven for AlloyDB Omn.
+    - `--service-type alloydbomni`: Specifies the service type as Aiven for AlloyDB Omni.
     - `--cloud CLOUD_AND_REGION`: Specifies the cloud provider and region for deployment.
     - `--plan PLAN`: Specifies the service plan or tier.
     - `--project PROJECT_NAME`: Specifies the project where the service will be created.
@@ -73,10 +73,19 @@ See configuration options in
 1. In the **Advanced configuration** section, make changes to the service configuration.
 </TabItem>
 <TabItem value="2" label="CLI">
+Use the [avn service update](/docs/tools/cli/service-cli#avn-cli-service-update) command
+to change basic service settings, such as service version, IP filtering, cloud region,
+termination protection, or service plan.
+
+:::tip
+Use [other avn service commands](/docs/tools/cli/service-cli) for advanced settings and
+operations on your service.
+:::
+
 </TabItem>
 </Tabs>
 
-## Connect to the service{#connect-to-service}
+## Connect to the service
 
 <Tabs groupId="group1">
 <TabItem value="1" label="Console" default>
@@ -89,6 +98,8 @@ See configuration options in
 
 </TabItem>
 <TabItem value="2" label="CLI">
+[Connect to your new service](/docs/products/alloydb-omni/connect/connect-psql) with
+[psql](https://www.postgresql.org/download/) CLI tool.
 </TabItem>
 </Tabs>
 
@@ -97,11 +108,13 @@ Discover more tools for connecting to Aiven for AlloyDB Omni in
 [Connect to Aiven for AlloyDB Omni®](/docs/products/alloydb-omni/connect/connect-services).
 :::
 
-## Load data into Aiven for AlloyDB Omni
+## Connect to Google Cloud
 
-## Read data from Aiven for AlloyDB Omni
+[Upload your Google service account key](/docs/products/alloydb-omni/manage-credentials)
+to the Aiven for AlloyDB Omni service so that you can use generative AI capabilities to
+build applications.
 
-## Related pages
+## Build AI applications
 
-- [Supported Aiven for AlloyDB Omni versions](/docs/platform/reference/eol-for-major-versions)
-- [Aiven for AlloyDB Omni backups](/docs/platform/concepts/service_backups)
+[Access and use AI models](/docs/products/alloydb-omni/access-ai-models) to
+[build generative AI applications using AlloyDB AI](https://cloud.google.com/alloydb/docs/ai).
